@@ -1,0 +1,52 @@
+.canvasWrapper {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  max-height: 100vh;
+  min-width: 45%;
+}
+
+.background1 {
+  background: url("../../../data/assets/bg/1.jpg");
+  background-size: cover;
+}
+
+.background2 {
+  background: url("../../../data/assets/bg/2.jpg");
+  background-size: cover;
+}
+
+.background3 {
+  background: url("../../../data/assets/bg/3.jpg");
+  background-size: cover;
+}
+
+.background4 {
+  background: url("../../../data/assets/bg/4.jpg");
+  background-size: cover;
+}
+
+.background5 {
+  background: url("../../../data/assets/bg/5.jpg");
+  background-size: cover;
+}
+
+.background6 {
+  background: url("../../../data/assets/bg/6.jpg");
+  background-size: cover;
+}
+
+.background7 {
+  background: url("../../../data/assets/bg/7.jpg");
+}
+
+.background8 {
+  background: url("../../../data/assets/bg/8.jpg");
+  background-size: cover;
+}
+
+@media (max-width: 1000px) {
+  .treePicture {
+    min-width: 30%;
+  }
+}

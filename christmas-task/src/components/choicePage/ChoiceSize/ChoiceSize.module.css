@@ -1,0 +1,10 @@
+.ChoiceSizeWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 1000px) {
+  .ChoiceSizeWrapper {
+    flex-direction: column;
+  }
+}

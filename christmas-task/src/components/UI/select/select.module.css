@@ -1,0 +1,33 @@
+.select {
+  font-size: 20px;
+  font-family: "Steppe";
+  align-content: center;
+  align-items: center;
+  color: white;
+  width: 100%;
+  border-radius: 40px;
+  border: solid var(--white) 2px;
+  cursor: pointer;
+}
+
+.dark {
+  font-size: 1.2rem;
+  height: 3rem;
+  max-width: 100%;
+  background-color: var(--dark-green);
+}
+
+.dark:focus {
+  border: 2px solid var(--light-blue);
+  border-radius: 45px;
+  transition: all 0.2s ease-in;
+}
+
+@media (max-width: 1000px) {
+  .select {
+    font-size: 0.8rem;
+  }
+  .dark {
+    font-size: 0.8rem;
+  }
+}

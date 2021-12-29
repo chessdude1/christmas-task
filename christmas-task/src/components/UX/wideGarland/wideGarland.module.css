@@ -1,0 +1,132 @@
+.garlandContainer {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+}
+
+.lightrope {
+  margin-top: 100px;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  padding: 0;
+}
+
+.lightrope__lightBulb {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  list-style: none;
+  height: 5px;
+  width: 5px;
+  border-radius: 10px;
+}
+
+.lightrope li:nth-child(3n) {
+  animation-duration: 1.4s;
+}
+
+.lightrope li:nth-child(2n) {
+  animation-duration: 1.8s;
+}
+
+.lightrope li:nth-child(2n - 1) {
+  animation-duration: 1.1s;
+}
+
+.lightRope__green {
+  animation-name: green;
+  animation-iteration-count: infinite;
+}
+
+.lightRope__red {
+  animation-name: red;
+  animation-iteration-count: infinite;
+}
+
+.lightRope__blue {
+  animation-name: blue;
+  animation-iteration-count: infinite;
+}
+
+.lightRope__multi {
+  animation-name: multi;
+  animation-iteration-count: infinite;
+}
+
+.lightRope__yellow {
+  animation-name: yellow;
+  animation-iteration-count: infinite;
+}
+
+@keyframes green {
+  0%,
+  100% {
+    background: rgb(0, 247, 0);
+    box-shadow: 0px 2px 12px 2px rgb(0, 247, 103);
+  }
+  50% {
+    background: rgba(0, 247, 21, 0.4);
+    box-shadow: 0px 2px 12px 2px rgba(0, 247, 0, 0.2);
+  }
+}
+
+@keyframes green {
+  0%,
+  100% {
+    background: rgb(0, 247, 0);
+    box-shadow: 0px 2px 12px 2px rgb(0, 247, 103);
+  }
+  50% {
+    background: rgba(0, 247, 21, 0.4);
+    box-shadow: 0px 2px 12px 2px rgba(0, 247, 0, 0.2);
+  }
+}
+
+@keyframes red {
+  0%,
+  100% {
+    background: rgb(247, 82, 0);
+    box-shadow: 0px 2px 12px 2px rgb(173, 69, 21);
+  }
+  50% {
+    background: rgba(236, 66, 21, 0.4);
+    box-shadow: 0px 2px 12px 2px rgba(236, 35, 21, 0.904);
+  }
+}
+
+@keyframes blue {
+  0%,
+  100% {
+    background: rgb(0, 246, 247);
+    box-shadow: 0px 2px 12px 2px rgb(21, 40, 236);
+  }
+  50% {
+    background: rgba(21, 1, 48, 0.4);
+    box-shadow: 0px 2px 12px 2px rgba(64, 14, 131, 0.4);
+  }
+}
+
+@keyframes multi {
+  0%,
+  100% {
+    background: rgb(237, 43, 26);
+    box-shadow: 0px 2px 12px 2px rgb(227, 33, 240, 0.4);
+  }
+  50% {
+    background: rgba(71, 37, 245, 0.8);
+    box-shadow: 0px 2px 12px 2px rgba(37, 245, 200, 0.1);
+  }
+}
+
+@keyframes yellow {
+  0%,
+  100% {
+    background: rgb(240, 216, 33);
+    box-shadow: 0px 2px 12px 2px rgba(240, 216, 33, 0.253);
+  }
+  50% {
+    background: rgba(245, 187, 37, 0.6);
+    box-shadow: 0px 2px 12px 2px rgba(237, 226, 26, 0.116);
+  }
+}

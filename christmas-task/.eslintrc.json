@@ -1,0 +1,10 @@
+{
+    "extends":  ["eslint:recommended", "plugin:@typescript-eslint/recommended"],
+      "parserOptions": {
+          "project": "./tsconfig.json"
+         },
+         "rules": {
+          "@typescript-eslint/no-var-requires" : 0
+        }
+}
+

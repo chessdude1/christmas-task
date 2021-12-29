@@ -1,0 +1,14 @@
+.choiceColorWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.choiceColor {
+  transition: all 0.2s ease-in;
+}
+
+.choiceColor:hover {
+  border-radius: 5px;
+  box-shadow: 2px 2px 1px 1px var(--light-blue);
+  transition: all 0.2s ease-in;
+}

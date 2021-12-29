@@ -1,0 +1,11 @@
+.inputLabel {
+  margin: 0;
+}
+
+.inputWrapper {
+  display: flex;
+}
+
+.inputBody {
+    background-color: transparent;
+}

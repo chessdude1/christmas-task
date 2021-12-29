@@ -1,0 +1,6 @@
+.ToysListWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3.6rem;
+  margin-top: 5rem;
+}

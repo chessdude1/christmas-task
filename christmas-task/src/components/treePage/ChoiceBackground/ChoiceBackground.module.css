@@ -1,0 +1,41 @@
+.ChoiceBackgroundList__wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 10px;
+}
+
+.ChoiceBackground__wrapper {
+  position: relative;
+  padding-top: 100%;
+  width: 100%;
+  background: radial-gradient(
+    109.56% 109.56% at 0% -2.94%,
+    rgba(255, 255, 255, 0.5) 0%,
+    rgba(179, 246, 255, 0.5) 100%
+  );
+  backdrop-filter: blur(4px);
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.ChoiceBackground_Img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  max-height: 180%;
+  max-width: 180%;
+}
+
+.ChoiceBackground__wrapper:hover {
+  border: 2px solid var(--light-blue);
+  transition: all 0.2s ease-in;
+}
+
+.ChoiceBackground__wrapperActive {
+  border: 2px solid var(--light-blue);
+  transition: all 0.2s ease-in;
+}

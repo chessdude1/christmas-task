@@ -1,0 +1,47 @@
+.toyCard {
+  display: flex;
+  background: radial-gradient(
+    109.56% 109.56% at 0% -2.94%,
+    rgba(255, 255, 255, 0.5) 0%,
+    rgba(179, 246, 255, 0.5) 100%
+  );
+  justify-content: center;
+  align-items: center;
+  min-height: 85px;
+  min-width: 85px;
+  border-radius: 20px;
+}
+
+.toyImg {
+  display: block;
+  position: absolute;
+  cursor: grab;
+  max-height: 75px;
+}
+
+.numberOfToy {
+  background: #24c5db;
+  height: 20px;
+  width: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 60px;
+  position: relative;
+  left: 40px;
+  top: 40px;
+}
+
+@media (max-width: 1000px) {
+  .toyImg {
+    max-height: 60px;
+  }
+  .toyCard {
+    min-height: 65px;
+    min-width: 65px;
+  }
+  .numberOfToy {
+    left: 30px;
+    top: 30px;
+  }
+}

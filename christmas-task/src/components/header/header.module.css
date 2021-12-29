@@ -1,0 +1,42 @@
+.headerWrapper {
+  background-color: var(--navigation-green);
+  height: 7rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__controls {
+  display: flex;
+  align-items: center;
+  min-width: 30%;
+  justify-content: space-between;
+  margin-left: 3rem;
+  font-size: 1.5rem;
+}
+
+.header__logo {
+  height: 70px;
+}
+
+.header__link {
+  text-decoration: none;
+}
+
+.header__settingsLogo {
+  -webkit-transition: -webkit-transform 0.8s ease-in-out;
+  transition: transform 0.8s ease-in-out;
+  height: 5rem;
+  margin-right: 5rem;
+  cursor: pointer;
+}
+
+.header__settingsLogo:hover {
+  transform: rotate(180deg);
+}
+
+@media (max-width: 1000px) {
+  .header__link {
+    font-size: 1.5rem;
+  }
+}

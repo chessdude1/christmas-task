@@ -1,0 +1,85 @@
+.choice {
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.choice:hover {
+  box-shadow: 2px 2px 1px 1px var(--light-blue);
+  transition: all 0.2s ease-in;
+}
+
+.choice_active {
+  box-shadow: 2px 2px 1px 1px var(--light-blue);
+  transition: all 0.2s ease-in;
+}
+
+.choice__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.choice__container {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  gap: 10px;
+}
+.choice__controls {
+  margin: 0 auto;
+}
+
+.choice__green {
+  cursor: pointer;
+  background: rgb(0, 247, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 247, 0, 1) 0%,
+    rgba(0, 247, 103, 1) 27%,
+    rgba(1, 48, 4, 1) 100%
+  );
+}
+
+.choice__red {
+  cursor: pointer;
+  background: rgb(247, 82, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(247, 82, 0, 1) 0%,
+    rgba(236, 66, 21, 1) 46%,
+    rgba(48, 16, 1, 1) 100%
+  );
+}
+
+.choice__blue {
+  cursor: pointer;
+  background: rgb(0, 246, 247);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 246, 247, 1) 0%,
+    rgba(21, 40, 236, 1) 46%,
+    rgba(21, 1, 48, 1) 100%
+  );
+}
+
+.choice__yellow {
+  cursor: pointer;
+  background: rgb(240, 216, 33);
+  background: linear-gradient(
+    90deg,
+    rgba(240, 216, 33, 1) 0%,
+    rgba(237, 227, 26, 1) 35%,
+    rgba(245, 187, 37, 1) 100%
+  );
+}
+
+.choice__multi {
+  cursor: pointer;
+  background: rgb(227, 33, 240);
+  background: linear-gradient(
+    90deg,
+    rgba(227, 33, 240, 1) 0%,
+    rgba(237, 43, 26, 1) 45%,
+    rgba(71, 37, 245, 1) 100%
+  );
+}

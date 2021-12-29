@@ -1,0 +1,70 @@
+.lightRope {
+  white-space: nowrap;
+  overflow: hidden;
+  position: absolute;
+  z-index: 1;
+  margin: 0;
+  padding: 0;
+  pointer-events: none;
+  border-radius: 50%;
+  padding: 0;
+  list-style: none;
+}
+
+.garland-tree-container {
+  display: flex;
+  justify-content: center;
+  height: calc(100vh - 140px);
+  width: 800px;
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  margin-left: -400px;
+  pointer-events: none;
+  z-index: 90;
+  overflow: hidden;
+}
+
+.garland {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin: -5px;
+
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
+}
+
+.blink {
+  animation-name: blinker;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(1, 0, 0, 1);
+  -webkit-animation-name: blinker;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: cubic-bezier(1, 0, 0, 1);
+}
+
+@keyframes blinker {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes blinker {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}

@@ -1,0 +1,36 @@
+.modalWrapper {
+  z-index: 100;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  pointer-events: none;
+  transition: all 0.4s ease-in-out;
+}
+
+.active {
+  opacity: 1;
+  pointer-events: all;
+  transition: all 0.4s ease-in-out;
+}
+
+.modalContent {
+  transition: all 0.4s ease-in-out;
+  z-index: 100;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  right: 50%;
+  top: 50%;
+  min-height: 10rem;
+  min-width: 20rem;
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  padding: 2rem;
+  border-radius: 20px;
+}

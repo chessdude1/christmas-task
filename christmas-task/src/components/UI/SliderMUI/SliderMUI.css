@@ -1,0 +1,11 @@
+.MuiSlider-track {
+  color: var(--light-green);
+}
+
+.MuiSlider-thumbColorSecondary {
+  color: rgb(28, 63, 36);
+}
+
+.MuiSlider-thumbColorPrimary {
+  color: rgb(13, 84, 236);
+}

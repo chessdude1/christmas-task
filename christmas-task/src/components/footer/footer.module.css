@@ -1,0 +1,25 @@
+.footerWrapper {
+  background-color: var(--navigation-green);
+  height: 7rem;
+  display: flex;
+  font-size: 1.5rem;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  z-index: 90;
+}
+
+.footer__linkToGh {
+  text-decoration: none;
+}
+
+.footer_rssLogo {
+  height: 6.5rem;
+}
+
+@media (max-width: 1000px) {
+  .footerWrapper {
+    font-size: 1.5rem;
+  }
+}

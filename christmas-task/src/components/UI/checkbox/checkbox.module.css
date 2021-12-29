@@ -1,0 +1,49 @@
+.CheckboxWrapper {
+  display: flex;
+  align-items: center;
+}
+
+.Checkbox {
+  width: 2.4rem;
+  height: 2.4rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.red {
+  background-color: red;
+}
+
+.white {
+  background-color: white;
+}
+
+.yellow {
+  background-color: #fdd700;
+}
+
+.blue {
+  background-color: #2299eb;
+}
+
+.green {
+  background-color: #08aa05;
+}
+
+.primary {
+  background-color: rgb(28, 63, 36);
+}
+
+.primary:hover {
+  box-shadow: 2px 2px 1px 1px var(--light-blue);
+  transition: all 0.2s ease-in;
+}
+
+.active {
+  box-shadow: 2px 2px 1px 1px var(--light-blue);
+  transition: all 0.2s ease-in;
+}
+
+.checkBoxName {
+  margin-left: 1rem;
+}

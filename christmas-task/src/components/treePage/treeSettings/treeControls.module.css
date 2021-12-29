@@ -1,0 +1,32 @@
+.snowFlake {
+  background-color: #192f2d;
+  cursor: pointer;
+  transition: all 0.4s ease-in;
+  max-height: 4rem;
+}
+
+.snowFlake__container {
+  margin-top: 1rem;
+}
+
+.snowFlake {
+  background: radial-gradient(
+    109.56% 109.56% at 0% -2.94%,
+    rgba(255, 255, 255, 0.5) 0%,
+    rgba(179, 246, 255, 0.5) 100%
+  );
+  backdrop-filter: blur(4px);
+  border-radius: 20px;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.snowFlake:hover {
+  box-shadow: 2px 2px 1px 1px var(--light-blue);
+  transition: all 0.4s ease-in;
+}
+
+.snowFlake__active {
+  box-shadow: 2px 2px 1px 1px var(--light-blue);
+  transition: all 0.4s ease-in;
+}

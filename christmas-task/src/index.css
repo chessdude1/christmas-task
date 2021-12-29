@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+a {
+  font-size: 2rem;
+}
+
+label {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+@font-face {
+  font-family: "Steppe";
+  src: url("./assets/fonts/Steppe.ttf") format("truetype");
+  font-style: "regular";
+  font-weight: 500;
+}
+
+* {
+  color: white;
+  font-family: "Neucha", cursive;
+  font-size: 12px;
+}
+
+:root {
+  --black: #030303;
+  --white: #ffffff;
+  --light-blue: #24c5db;
+  --dark-green: #192f2d;
+  --blue: #5699e6;
+  --navigation-green: #121c1e;
+  --light-green: #245f41;
+}
+
+::-webkit-input-placeholder {
+  color: white;
+}
+
+.item-enter {
+  opacity: 0;
+}
+.item-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+.item-exit {
+  opacity: 1;
+}
+.item-exit-active {
+  opacity: 0;
+  transition: opacity 500ms ease-in;
+}
+
+@media (max-width: 1000px) {
+  * {
+    font-size: 10px;
+  }
+}

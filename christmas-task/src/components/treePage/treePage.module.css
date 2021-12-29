@@ -1,0 +1,34 @@
+.treePageWrapper {
+  display: flex;
+  background-color: var(--dark-green);
+  height: calc(100vh - 140px);
+}
+
+.leftBar {
+  max-width: 38.4rem;
+  min-width: 16%;
+  margin-left: 2rem;
+}
+
+.leftBar__settings {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.canvas {
+  margin-left: 3rem;
+}
+
+.link__toChoice {
+  text-decoration: none;
+  font-family: "Steppe";
+  font-size: 1rem;
+}
+
+@media (max-width: 1000px) {
+  .link__toChoice {
+    font-size: 0.8rem;
+  }
+}

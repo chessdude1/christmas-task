@@ -1,0 +1,21 @@
+.toy__img {
+  height: 84px;
+}
+
+.toy__wrapper {
+  background: radial-gradient(
+    109.56% 109.56% at 0% -2.94%,
+    rgba(255, 255, 255, 0.5) 0%,
+    rgba(179, 246, 255, 0.5) 100%
+  );
+  backdrop-filter: blur(4px);
+  border-radius: 20px;
+  min-width: 17%;
+  transition: all 0.2s ease-in;
+  cursor: pointer;
+}
+
+.toy__favorite {
+  box-shadow: 3px 3px 2px 1px rgb(233, 243, 89);
+  transition: all 0.2s ease-in;
+}

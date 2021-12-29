@@ -1,0 +1,43 @@
+.treesCardWrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 10px;
+}
+
+.treePicture {
+  max-height: 7rem;
+}
+
+.treeCard__title {
+  margin-top: 0px;
+}
+.treeCardWrapper {
+  background: radial-gradient(
+    109.56% 109.56% at 0% -2.94%,
+    rgba(255, 255, 255, 0.5) 0%,
+    rgba(179, 246, 255, 0.5) 100%
+  );
+  backdrop-filter: blur(4px);
+  max-height: 100%;
+  max-width: 90%;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.treeCardWrapper:hover {
+  border: 2px solid var(--light-blue);
+  transition: all 0.2s ease-in;
+}
+
+.treeCardWrapper__active {
+  border: 2px solid var(--light-blue);
+  transition: all 0.4s ease-in;
+}
+
+@media (max-width: 1000px) {
+  .treesCardWrapper {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+}

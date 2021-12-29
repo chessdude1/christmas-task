@@ -1,0 +1,55 @@
+.choicePageWrapper {
+  height: 100%;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+}
+
+.choicePageDark {
+  background-color: var(--dark-green);
+}
+
+.choicePageLight {
+  background-color: var(--blue);
+}
+
+.choicePageControls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.leftBar {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 27%;
+  margin-left: 10rem;
+  min-width: 20%;
+}
+
+.leftBar__sort {
+  margin-top: 1rem;
+}
+
+.numberOfFavoriteToys {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  font-size: 2rem;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+}
+
+.controls__linkTreePage {
+  text-decoration: none;
+  font-family: "Steppe";
+  font-size: 1rem;
+}
+
+.toys {
+  margin-left: 2.5rem;
+}
